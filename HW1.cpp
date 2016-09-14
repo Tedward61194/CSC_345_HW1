@@ -8,6 +8,11 @@
 
 using namespace std;
 
+//prototypes
+int square(int &i);
+int twice(int &i);
+int once(int &i);
+
 int square(int &i) {
   i = i*i;
   return i;
